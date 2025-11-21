@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gerenciador-de-tarefas/static/css/main.c704cc8a.css",
+    "main.js": "/gerenciador-de-tarefas/static/js/main.890f49b9.js",
+    "static/js/453.4698609a.chunk.js": "/gerenciador-de-tarefas/static/js/453.4698609a.chunk.js",
+    "index.html": "/gerenciador-de-tarefas/index.html",
+    "main.c704cc8a.css.map": "/gerenciador-de-tarefas/static/css/main.c704cc8a.css.map",
+    "main.890f49b9.js.map": "/gerenciador-de-tarefas/static/js/main.890f49b9.js.map",
+    "453.4698609a.chunk.js.map": "/gerenciador-de-tarefas/static/js/453.4698609a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c704cc8a.css",
+    "static/js/main.890f49b9.js"
+  ]
+}
