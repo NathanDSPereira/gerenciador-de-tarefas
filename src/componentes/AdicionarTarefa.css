@@ -1,0 +1,105 @@
+.div-pai {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+.div-pai h1 {
+    font-size: 40px;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.div-input-adicionar-tarefa {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.formulario label {
+    font-size: 20px;
+}
+
+.input-nova-tarefa {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 260px;
+    font-size: 20px;
+}
+
+.input-nova-tarefa::placeholder {
+    font-size: 20px;
+}
+
+.botao-adicionar {
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+
+    display: flex;
+    align-items: center;
+
+    transition: background-color 0.3s ease;
+}
+
+.botao-adicionar:hover {
+    background-color: #1c9b22;
+    cursor: pointer;
+}
+
+.filtro-tarefas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    margin: 20px 0 0 0 ;
+
+    
+}
+
+.botao-filtro {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+
+    transition: all 0.3s ease;
+
+    font-size: 18px;
+
+    width: 150px;
+    height: 40px;
+}
+
+.botao-filtro:hover, .botao-filtro-ativo {
+    cursor: pointer;
+}
+
+.botao-filtro-ativo {
+    background-color: #1c9b22;
+
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+
+    transition: all 0.3s ease;
+
+    font-size: 18px;
+
+    width: 150px;
+    height: 40px;
+}

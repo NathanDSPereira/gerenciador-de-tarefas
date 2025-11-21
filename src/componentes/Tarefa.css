@@ -1,0 +1,17 @@
+.tarefa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+
+    border-bottom: 1px solid #ccc;
+
+    font-size: 18px;
+}
+
+.checkbox-container {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
