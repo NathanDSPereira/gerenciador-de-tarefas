@@ -46,7 +46,8 @@
     padding: 10px;
     border: none;
     border-radius: 50%;
-    background-color: #4CAF50;
+    /* background-color: #4CAF50; */
+      background: #27944f;
     color: white;
 
     display: flex;
@@ -90,7 +91,9 @@
 }
 
 .botao-filtro-ativo {
-    background-color: #1c9b22;
+    /* background-color: #1c9b22; */
+      background: #27944f;
+
 
     padding: 10px;
     border: none;

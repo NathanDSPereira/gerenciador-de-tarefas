@@ -1,12 +1,24 @@
 .tarefa {
+    background: rgba(255,255,255,0.06);
+    padding: 16px 20px;
+    border-radius: 12px;
+    margin-bottom: 14px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    width: 50%;
+    align-items: center;
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255,255,255,0.08);
+    transition: 0.25s;
 
-    border-bottom: 1px solid #ccc;
+    width: 40%;
 
-    font-size: 18px;
+    font-size: large;
+}
+
+.tarefa:hover {
+    background: rgba(255,255,255,0.12);
+    transform: translateX(4px);
+    cursor: pointer;
 }
 
 .checkbox-container {

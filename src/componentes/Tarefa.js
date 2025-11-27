@@ -2,7 +2,7 @@ import "./Tarefa.css"
 
 function Tarefa({ tarefa, concluirTarefa }) {
     return (
-        <div className="tarefa">
+        <div className="tarefa" onClick={() => concluirTarefa(tarefa.id)}>
             <h4 style={{
                 textDecoration: tarefa.concluido ? "line-through" : "none",
                 color: tarefa.concluido ? "#777070ff" : "#ffffff"
